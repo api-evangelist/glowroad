@@ -1,7 +1,24 @@
 aid: glowroad
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glowroad.png
 name: GlowRoad
-description: 'GlowRoad is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'GlowRoad is an Indian social-commerce and reselling platform, headquartered in Bengaluru
+  and founded in 2017, that enabled individuals — predominantly home-based women entrepreneurs — to resell
+  fashion, home, and lifestyle products to their social networks over WhatsApp and Facebook without holding
+  inventory. The company was acquired by Amazon India in 2021 and its reselling model was subsequently
+  folded into Amazon''s operations. GlowRoad runs a consumer mobile app and a supplier-onboarding funnel
+  rather than a public developer program; as of this enrichment pass no developer portal, API documentation,
+  OpenAPI, or partner API surface is published, and the public web endpoints return HTTP 503.'
 url: https://raw.githubusercontent.com/api-evangelist/glowroad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Social Commerce
+- Reselling
+- E-Commerce
+- Marketplace
+- Mobile Commerce
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glowroad-domain-security.yml
 - type: Website
   url: http://www.glowroad.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
