@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/glowroad/integrations
+- https://n8n.io/integrations/glowroad/
+- https://composio.dev/toolkits/glowroad
+- https://monid.ai/tools/glowroad
+checked:
+- https://composio.dev/toolkits/glowroad
+- https://monid.ai/tools/glowroad
+- https://n8n.io/integrations/glowroad/
+- https://zapier.com/apps/glowroad/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
